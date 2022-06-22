@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="63.031618">
+<testcase classname="To check fb 1st page" name="To click create new account and sign button" time="20.47553">
+<system-out><![CDATA[Given to launch chrome browser..............................................passed
+When to click create new button.............................................passed
+And pass fb first name......................................................passed
+And pass sur name...........................................................passed
+Then to click signup button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check login functions" name="To pass valid username and valid password" time="13.826671">
+<failure message="java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)&#13;&#10;&#9;at com.sun.proxy.$Proxy23.sendKeys(Unknown Source)&#13;&#10;&#9;at org.base.BaseClass.sendkey(BaseClass.java:50)&#13;&#10;&#9;at org.step.StepDefinition.toPassValidUsernameNdPassword(StepDefinition.java:82)&#13;&#10;&#9;at ✽.To pass valid username nd password(file:Login.feature:9)&#13;&#10;"><![CDATA[Given To open Chrome Browser................................................passed
+When To pass valid username nd password.....................................failed
+Then To click LoginButton...................................................skipped
+
+StackTrace:
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy23.sendKeys(Unknown Source)
+	at org.base.BaseClass.sendkey(BaseClass.java:50)
+	at org.step.StepDefinition.toPassValidUsernameNdPassword(StepDefinition.java:82)
+	at ✽.To pass valid username nd password(file:Login.feature:9)
+]]></failure>
+</testcase>
+<testcase classname="To check login functions" name="To pass invalid username and invalid password" time="28.729417">
+<system-out><![CDATA[Given To open Chrome Browser................................................passed
+When To pass invalid username nd invalid password...........................passed
+Then To click LoginButton...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

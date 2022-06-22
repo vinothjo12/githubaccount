@@ -1,0 +1,459 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-22T14:15:47.704Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3584709,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 436876,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 92819,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario2()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To click create new account and sign button",
+        "description": "",
+        "id": "to-check-fb-1st-page;to-click-create-new-account-and-sign-button",
+        "after": [
+          {
+            "result": {
+              "duration": 154402,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 228479,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 64260,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9046877001,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "to launch chrome browser",
+            "match": {
+              "location": "StepDefinition.toLaunchChromeBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12757229550,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "to click create new button",
+            "match": {
+              "location": "StepDefinition.toClickCreateNewButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 991825185,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "pass fb first name",
+            "match": {
+              "location": "StepDefinition.passFbFirstName(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "aala",
+                  "vino",
+                  "car"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106060626,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "pass sur name",
+            "match": {
+              "location": "StepDefinition.passSurName(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "audi",
+                  "a4",
+                  "multithronic"
+                ]
+              },
+              {
+                "cells": [
+                  "bmw",
+                  "x series",
+                  "s drive"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96898265,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "to click signup button",
+            "match": {
+              "location": "StepDefinition.toClickSignupButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@jo"
+          }
+        ]
+      }
+    ],
+    "name": "To check fb 1st page",
+    "description": "",
+    "id": "to-check-fb-1st-page",
+    "keyword": "Feature",
+    "uri": "file:CreateNewAccount.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 61773537679,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To open Chrome Browser",
+            "match": {
+              "location": "StepDefinition.toOpenChromeBrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-22T14:16:10.739Z",
+        "before": [
+          {
+            "result": {
+              "duration": 78093,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 142800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 46410,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario2()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "To pass valid username and valid password",
+        "description": "",
+        "id": "to-check-login-functions;to-pass-valid-username-and-valid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 89250,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 337364,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 66490,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)\r\n\tat com.sun.proxy.$Proxy23.sendKeys(Unknown Source)\r\n\tat org.base.BaseClass.sendkey(BaseClass.java:50)\r\n\tat org.step.StepDefinition.toPassValidUsernameNdPassword(StepDefinition.java:83)\r\n\tat ✽.To pass valid username nd password(file:Login.feature:9)\r\n",
+              "duration": 51218100,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "To pass valid username nd password",
+            "match": {
+              "location": "StepDefinition.toPassValidUsernameNdPassword(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "rolls royce"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "ghost"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44179,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "To click LoginButton",
+            "match": {
+              "location": "StepDefinition.toClickLoginButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@vinoth"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19950378574,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To open Chrome Browser",
+            "match": {
+              "location": "StepDefinition.toOpenChromeBrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-22T14:17:12.578Z",
+        "before": [
+          {
+            "result": {
+              "duration": 116470,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 170913,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 90142,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario2()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "To pass invalid username and invalid password",
+        "description": "",
+        "id": "to-check-login-functions;to-pass-invalid-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 77647,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 171359,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 51319,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 204333781,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To pass invalid username nd invalid password",
+            "match": {
+              "location": "StepDefinition.toPassInvalidUsernameNdInvalidPassword(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "moive",
+                  "lang",
+                  "hero"
+                ]
+              },
+              {
+                "cells": [
+                  "vikram",
+                  "tamil",
+                  "kamal"
+                ]
+              },
+              {
+                "cells": [
+                  "beast",
+                  "tamil",
+                  "vijay"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79590540,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "To click LoginButton",
+            "match": {
+              "location": "StepDefinition.toClickLoginButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mini"
+          }
+        ]
+      }
+    ],
+    "name": "To check login functions",
+    "description": "",
+    "id": "to-check-login-functions",
+    "keyword": "Feature",
+    "uri": "file:Login.feature",
+    "tags": []
+  }
+]
