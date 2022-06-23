@@ -37,6 +37,7 @@ public class HooksClass extends BaseClass {
 	@After(order = 1)
 	public void afterScenario2() {
 		System.out.println("aftnun");
+		System.out.println("evening");
 
 	}
 }
