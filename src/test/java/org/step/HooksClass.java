@@ -38,6 +38,7 @@ public class HooksClass extends BaseClass {
 	public void afterScenario2() {
 		System.out.println("aftnun");
 		System.out.println("evening");
+		System.out.println("eve");
 
 	}
 }
