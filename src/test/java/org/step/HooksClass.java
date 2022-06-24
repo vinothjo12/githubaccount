@@ -40,6 +40,7 @@ public class HooksClass extends BaseClass {
 		System.out.println("evening");
 		System.out.println("eve");
 		System.out.println("forenun");
+		System.out.println("mini last");
 
 	}
 }
