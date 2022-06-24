@@ -39,8 +39,12 @@ public class HooksClass extends BaseClass {
 		System.out.println("aftnun");
 		System.out.println("evening");
 		System.out.println("eve");
+<<<<<<< HEAD
 		System.out.println("forenoon");
 		System.out.println("vinoth-pull");
+=======
+		System.out.println("forenun");
+>>>>>>> ad2938823f50c970e90df3c4e065ec83dc6ae9cb
 
 	}
 }
